@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    words = ["cat", "dog", "bat"]  # Issue: very small word list
+    words = ["cat", "dog", "bat"]  
     word = random.choice(words)
     guessed = []
     tries = 6
